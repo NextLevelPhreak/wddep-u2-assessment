@@ -4,12 +4,31 @@
 /* Tablet View */
 
 @media (min-width: 768px) {
-	
+
+main {
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+section {
+	width:45%;
+}
 }
 
 
 /* Desktop View */
 
 @media (min-width: 1024px) {
-	
+
+main {
+		display:flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+}
+section {
+	width:30%;
+}
+body {
+	max-width: 1280px;
+}
 }
